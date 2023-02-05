@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*.banner{*/
+/*    margin-top: 50px;*/
+/*    text-align:center;*/
+/*    margin-left: 300px;*/
+/*}*/
+ul{
+    width: 750px;
+    margin:0 auto;
+    padding:0;
+	/* height: 20px; */
+	
+	
+
+    /*margin-left: 300px;*/
+}
+li{
+    /*margin-left: 200px;*/
+    list-style-type: none;
+    width:160px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px;
+    text-align: center;
+	
+}
+
+.banner{
+    background: url(../images/banner4.jpg) no-repeat  center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    /*-o-background-size: cover;*/
+    /*-ms-background-size: cover;*/
+    min-height:640px;
+    text-align:center;
+	
+}
+
+a{
+    font-size: 19px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color: white;
+}
+div ul li{
+    float: left;
+    background-color: #486c88;
+}
+
+div ul li ul{
+    display: none;
+}
+
+div ul li:hover ul{
+    display: block;
+}
+div ul li:hover{
+    background-color:#cccccc ;
+}
+div ul li a:hover{
+    color: #5eb703;
+}
+div ul li a {
+
+    text-decoration: none;
+
+}
+.active{
+    color: #5eb703;
+}
+
+.welcome{
+    /*float: left;*/
+    width: 1100px;
+    height: 400px;
+    margin: 0 auto;
+}
+/* .welcome:hover{
+	border: #13cbb9 1px solid;
+	width: 1100px;
+	height: 400px;
+	margin: 0 auto;
+} */
+ h1{
+    font-size:40px;
+    font-weight:600;
+    margin:1em 0em;
+}
+
+h2{
+    font-size: 20px;
+    color: #5eb703;
+}
+p{
+    font-size: 15px;
+    color: #404040;
+}
+.welcome-left a{
+    font-size: 50px;
+    color: #5eb703;
+    text-decoration: none;
+
+}
+.welcome-left a:hover{
+	font-size: 50px;
+	color: #7ae803;
+	text-decoration: none;
+	
+}
+.welcome-left{
+    float: left;
+}
+.welcome-right{
+    margin-top: 15px;
+    float: right;
+}
+.middle{
+    width: 1100px;
+    height: 1300px;
+    margin:0 auto;
+}
+.mid-left{
+    margin-top: 80px;
+    width: 650px;
+    height: 1000px;
+    float: left;
+}
+
+
+h4{
+    font-size: 18px;
+    line-height: 40px;
+}
+.daoyu p{
+    font-size: 15px;
+    color: #404040;
+}
+
+.left-first{
+    margin-top: 20px;
+    width: 310px;
+    float: left;
+    box-shadow: 1px 1px 2px 2px #cccccc;
+    text-align: center;
+}
+
+.pic-1{
+    width: 255px;
+    margin: 0 auto;
+}
+
+.left-second{
+    margin-top: 20px;
+    width: 310px;
+    float: right;
+    box-shadow: 1px 1px 2px 2px #cccccc;
+    text-align: center;
+}
+
+.pic-2{
+    width: 255px;
+    margin: 0 auto;
+}
+
+.mid-right{
+    /*margin-top: 20px;*/
+    float: right;
+    margin-left: 20px;
+    width: 380px;
+
+}
+
+.right{
+    width: 350px;
+    height: 1200px;
+    box-shadow:  1px 1px 2px 2px #cccccc;
+    text-align: center;
+}
+.right h1{
+    font-size: 25px;
+}
+.shang a{
+
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+.shang-text{
+    margin-left: 20px;
+}
+.shang i{
+     color: #5eb703;
+
+ }
+.pic-3{
+    width: 350px;
+    height: 420px;
+    margin-top: 10px;
+    margin-left:30px
+}
+.text{
+    width: 250px;
+    margin: 0 auto;
+    text-align: left;
+}
+.text p{
+    font-size: 16px;
+}
+.xia{
+    margin-top: 20px;
+}
+.xia a{
+
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+.xia-text{
+    margin-left: 20px;
+}
+.xia i{
+    color: #5eb703;
+
+}
+.pic-4{
+    width: 350px;
+    height: 420px;
+    margin-top: 10px;
+    margin-left:30px
+}
+
+.footer{
+    background-color: #486c88;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.footer1 p{
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    color: white;
+}
+
+
+.footer p{
+    width: 850px;
+    margin: 0 auto;
+
+}
+.pic-5{
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.list{
+    height: 2000px;
+}
+.list-text{
+    margin-top: 80px;
+
+    width: 500px;
+    height: 100px;
+    float: right;
+}
+.list-text h4{
+    font-size: 30px;
+    line-height: 200px;
+    color: #5eb703;
+}
+.list-text p{
+    font-size: 20px;
+}
+
+.list-1{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+.line{
+    width: 1200px;
+    margin: 0 auto;
+}
+.prod{
+    margin-top: 30px;
+}
+.con{
+    margin-bottom: 100px;
+}
+.con p{
+    font-size: 20px;
+}
+
+.reg{
+    height: 500px;
+}
+.log{
+    height: 500px;
+}
+
+.log table tr td a{
+    color: black;
+}
+
+.news-mid{
+    width: 1300px;
+    height: 800px;
+    margin: 0 auto;
+}
+.news-mid2{
+    margin-top: 50px;
+}
+
